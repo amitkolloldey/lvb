@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Custom Styles
+.v-list-group__header.v-list-item.v-list-item--active.v-list-item--link.theme--dark {
+    color: #fff;
+    background: #272727;
+}
+
+hr.v-divider {
+    margin: 0px 0px;
+}
+
+.v-application .v-list-group.v-list-group--active.primary--text {
+    color: #222 !important;
+}
+
+.v-toolbar__title {
+    font-size: 16px !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a.router-link-exact-active.router-link-active {
+    background: #ddd !important;
+    display: block;
+}
+
+.custom-loader {
+    animation: loader 1s infinite;
+    display: flex;
+}
+
+@-moz-keyframes loader {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes loader {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes loader {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loader {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
